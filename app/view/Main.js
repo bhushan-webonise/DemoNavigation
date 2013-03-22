@@ -6,7 +6,9 @@ Ext.define('DemoNavigation.view.Main', {
         'Ext.MessageBox',
         'Ext.Panel',
         'Ext.Toolbar',
-        'Ext.event.publisher.Dom'
+        'Ext.event.publisher.Dom',
+        'Ext.form.Panel',
+        'Ext.field.Text'
     ],
 
     config: {
@@ -87,13 +89,13 @@ Ext.define('DemoNavigation.view.Main', {
         /**
          *  Change this to 'right' to dock the navigation list to the right.
          */
-        listPosition: 'left',
+        listPosition: 'right',
 
         /**
          *  Example of how to re-order the groups.
          */
         groups: {
-            'Group 1': 1,
+            'test': 1,
             'Group 2': 3,
             'Group 3': 2
         },
@@ -108,26 +110,72 @@ Ext.define('DemoNavigation.view.Main', {
         },
 
         items: [{
-            title: 'Item 1',
-            group: 'Group 1',
+            title: 'Home',
+            group: 'test',
 
             // Enable the slide button using the defaults defined above in
             // `slideButtonDefaults`.
             slideButton: true,
             items: [{
                 xtype: 'toolbar',
-                title: 'Item 1',
+                title: 'Home',
                 docked: 'top'
             },{
                 xtype: 'panel',
-                html: '<img src="resources/images/guide.jpg" width="100%" />',
-
-                // Mask this item when the container is opened
-                maskOnOpen: true
+                maskOnOpen: true,
+                layout: {
+                    align: 'center',
+                    pack: 'center',
+                    type: 'hbox'
+                },
+                items: [
+                    {
+                        xtype: 'formpanel',
+                        flex: 1,
+                        height: 96,
+                        ui: 'light',
+                        width: 289,
+                        layout: {
+                            type: 'fit'
+                        },
+                        scrollable: null,
+                        items: [
+                            {
+                                xtype: 'textfield',
+                                label: 'Search Church',
+                                labelAlign: 'top',
+                                name: ''
+                            },
+                            {
+                                xtype: 'panel',
+                                docked: 'right',
+                                ui: 'light',
+                                layout: {
+                                    type: 'fit'
+                                },
+                                scrollable: null,
+                                items: [
+                                    {
+                                        xtype: 'button',
+                                        docked: 'bottom',
+                                        id: 'locationbtn',
+                                        height: 46,
+                                        width: 46,
+                                        margin: '0 0 6 0',
+                                        iconAlign: 'center',
+                                        iconCls: 'locate',
+                                        iconMask: true,
+                                        text: ''
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }]
         },{
             title: 'Item 2',
-            group: 'Group 1',
+            group: 'test',
             /**
              *  Here's an example of how an item can simply execute a
              *  function, rather than display a new component.

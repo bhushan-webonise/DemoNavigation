@@ -11,11 +11,12 @@ Ext.application({
     name: 'DemoNavigation',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Ext.device.Geolocation'
     ],
 
     views: ['Main'],
-    controllers: ["Main"],
+    controllers: ["Main","Location"],
 
     icon: {
         '57': 'resources/icons/Icon.png',
