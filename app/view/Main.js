@@ -17,7 +17,7 @@ Ext.define('DemoNavigation.view.Main', {
          *  will be draggable.  To disable draggin all together, set this
          *  to false.
          */
-        slideSelector: 'x-toolbar',
+        slideSelector: 'x-container',
 
         /**
          *  Container must be dragged 10 pixels horizontally before allowing
@@ -55,7 +55,7 @@ Ext.define('DemoNavigation.view.Main', {
          *  modified the width.
          */
         list: {
-            maxDrag: 350,
+            maxDrag: null,
             width: 300,
             items: [{
                 xtype: 'container',
@@ -64,7 +64,7 @@ Ext.define('DemoNavigation.view.Main', {
                 title: {
                     title: 'Navigation',
                     centered: false,
-                    width: 400,
+                    width: 500,
                     left: 0
                 }
 
