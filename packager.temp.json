@@ -1,0 +1,21 @@
+{
+  "applicationName": "My Application",
+  "applicationId": "com.webonise.DemoNavigation",
+  "versionString": "1.0",
+  "iconName": "resources/icons/Icon~ipad.png",
+  "inputPath": "/home/webonise/sencha/DemoNavigation/build/DemoNavigation/package",
+  "outputPath": "/home/webonise/sencha/DemoNavigation/build/DemoNavigation/native",
+  "configuration": "Debug",
+  "platform": "Android",
+  "deviceType": "Universal",
+  "certificatePath": "/home/webonise/.android/debug.keystore",
+  "certificateAlias": "",
+  "sdkPath": "/home/webonise/.android-sdk-linux/",
+  "androidAPILevel": "13",
+  "orientations": [
+    "portrait",
+    "landscapeLeft",
+    "landscapeRight",
+    "portraitUpsideDown"
+  ]
+}
