@@ -46,7 +46,7 @@ Ext.define('DemoNavigation.view.Main', {
          *  will use these values at the default.
          */
         slideButtonDefaults: {
-            selector: 'toolbar'
+            selector: 'container'
         },
 
         /**
@@ -55,10 +55,10 @@ Ext.define('DemoNavigation.view.Main', {
          *  modified the width.
          */
         list: {
-            maxDrag: 450,
-            width: 400,
+            maxDrag: 350,
+            width: 300,
             items: [{
-                xtype: 'toolbar',
+                xtype: 'container',
                 docked: 'top',
                 ui: 'light',
                 title: {
