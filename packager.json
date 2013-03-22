@@ -111,12 +111,12 @@
 	 * Be sure to install corresponding platform API in android SDK manager (android_sdk/tools/android)
 	 */
 	"androidAPILevel":"13",
-
-	/**
-	 * @cfg {Array[String]} orientations
-	 * @required
-	 * This is orientations that this application can run.
-	 */
+    "permissions":[ "INTERNET", "ACCESS_NETWORK_STATE", "CAMERA", "VIBRATE", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "CALL_PHONE"],
+/**
+ * @cfg {Array[String]} orientations
+ * @required
+ * This is orientations that this application can run.
+ */
 	"orientations": [
 		"portrait",
 		"landscapeLeft",

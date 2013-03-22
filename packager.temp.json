@@ -12,6 +12,15 @@
   "certificateAlias": "",
   "sdkPath": "/home/webonise/.android-sdk-linux/",
   "androidAPILevel": "13",
+  "permissions": [
+    "INTERNET",
+    "ACCESS_NETWORK_STATE",
+    "CAMERA",
+    "VIBRATE",
+    "ACCESS_FINE_LOCATION",
+    "ACCESS_COARSE_LOCATION",
+    "CALL_PHONE"
+  ],
   "orientations": [
     "portrait",
     "landscapeLeft",
