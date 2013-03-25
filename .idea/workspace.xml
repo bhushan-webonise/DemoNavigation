@@ -6,12 +6,17 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/app.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363958356911" ignored="false" />
     <file path="/Main.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363953058541" ignored="false" />
-    <file path="/packager.json" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363932695621" ignored="false" />
+    <file path="/packager.json" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364208027068" ignored="false" />
     <file path="/sencha.cfg" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363933267300" ignored="false" />
     <file path="/index.html" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363947268343" ignored="false" />
-    <file path="/app.json" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363947432068" ignored="false" />
+    <file path="/app.json" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364215918320" ignored="false" />
     <file path="/style.css" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363952592381" ignored="false" />
-    <file path="/Location.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1363957018094" ignored="false" />
+    <file path="/Location.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364214782674" ignored="false" />
+    <file path="$PROJECT_DIR$/../Demo/app/controller/location.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364209502365" ignored="false" />
+    <file path="/location.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364209502365" ignored="false" />
+    <file path="$PROJECT_DIR$/../Demo/app.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364209483551" ignored="false" />
+    <file path="$PROJECT_DIR$/../Demo/packager.temp.json" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364212216590" ignored="false" />
+    <file path="$PROJECT_DIR$/../Demo/build/Demo/package/app.js" changelist="fa8ca94f-c50b-4cd8-b95d-a642695695e8" time="1364209447897" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +36,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <file leaf-file-name="packager.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packager.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="16" selection-start="5638" selection-end="5685" vertical-scroll-proportion="-12.857142">
+            <state line="51" column="67" selection-start="1753" selection-end="1753" vertical-scroll-proportion="30.666666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controller/Location.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="109" selection-start="270" selection-end="270" vertical-scroll-proportion="0.22884881">
               <folding />
             </state>
           </provider>
@@ -43,91 +57,7 @@
       <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="23" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="packager.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/packager.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="4" selection-start="3435" selection-end="3435" vertical-scroll-proportion="0.6039454">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="169005" selection-start="0" selection-end="213958" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#6939#7424#1" expanded="true" />
-                <element signature="e#7584#9681#1" expanded="true" />
-                <element signature="e#9858#12035#1" expanded="true" />
-                <element signature="e#12191#14348#1" expanded="true" />
-                <element signature="e#21625#22510#1" expanded="true" />
-                <element signature="e#23025#23682#1" expanded="true" />
-                <element signature="e#26888#28749#2" expanded="true" />
-                <element signature="e#28836#29509#2" expanded="true" />
-                <element signature="e#29610#31587#2" expanded="true" />
-                <element signature="e#31688#33713#2" expanded="true" />
-                <element signature="e#33816#35861#2" expanded="true" />
-                <element signature="e#35958#37867#2" expanded="true" />
-                <element signature="e#37962#40115#2" expanded="true" />
-                <element signature="e#40208#42513#2" expanded="true" />
-                <element signature="e#42610#44239#2" expanded="true" />
-                <element signature="e#44334#46771#2" expanded="true" />
-                <element signature="e#46862#48435#2" expanded="true" />
-                <element signature="e#48528#50837#2" expanded="true" />
-                <element signature="e#50934#53967#2" expanded="true" />
-                <element signature="e#54056#56037#2" expanded="true" />
-                <element signature="e#56128#57945#2" expanded="true" />
-                <element signature="e#58034#59367#2" expanded="true" />
-                <element signature="e#59460#62317#2" expanded="true" />
-                <element signature="e#62406#63935#2" expanded="true" />
-                <element signature="e#85486#87995#2" expanded="true" />
-                <element signature="e#88092#90393#2" expanded="true" />
-                <element signature="e#90492#92473#2" expanded="true" />
-                <element signature="e#92562#95131#2" expanded="true" />
-                <element signature="e#95220#96401#2" expanded="true" />
-                <element signature="e#96490#99407#2" expanded="true" />
-                <element signature="e#99496#101085#2" expanded="true" />
-                <element signature="e#101174#103035#2" expanded="true" />
-                <element signature="e#137730#137951#2" expanded="true" />
-                <element signature="e#139096#143881#1" expanded="true" />
-                <element signature="e#147240#152649#1" expanded="true" />
-                <element signature="e#163279#163386#2" expanded="true" />
-                <element signature="e#163549#163656#2" expanded="true" />
-                <element signature="e#168884#170689#2" expanded="true" />
-                <element signature="e#170937#175546#2" expanded="true" />
-                <element signature="e#175900#181245#2" expanded="true" />
-                <element signature="e#191646#193955#2" expanded="true" />
-                <element signature="e#194167#198736#1" expanded="true" />
-                <element signature="e#200608#202585#2" expanded="true" />
-                <element signature="e#203618#206187#2" expanded="true" />
-                <element signature="e#206235#208512#2" expanded="true" />
-                <element signature="e#208561#210590#2" expanded="true" />
-                <element signature="e#210636#212481#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="17" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Location.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controller/Location.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="16" selection-start="321" selection-end="1129" vertical-scroll-proportion="0.0">
+            <state line="49" column="17" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +66,7 @@
       <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="12" selection-start="3681" selection-end="3681" vertical-scroll-proportion="-21.25">
+            <state line="40" column="11" selection-start="2159" selection-end="2159" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +75,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+            <state line="31" column="28" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneGap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/touch/src/device/notification/PhoneGap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="44" selection-start="56" selection-end="64" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,7 +93,7 @@
       <file leaf-file-name="Geolocation.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/touch/src/device/Geolocation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="164" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="38" column="11" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +102,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="71" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-22.5">
+            <state line="54" column="112" selection-start="1762" selection-end="1762" vertical-scroll-proportion="-20.916666">
               <folding />
             </state>
           </provider>
@@ -183,14 +122,14 @@
         <option value="$PROJECT_DIR$/packager.temp.json" />
         <option value="$PROJECT_DIR$/ux/slidenavigation/View.js" />
         <option value="$PROJECT_DIR$/resources/css/app.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/resources/css/style.css" />
         <option value="$PROJECT_DIR$/app/view/Main.js" />
+        <option value="$PROJECT_DIR$/packager.json" />
+        <option value="$PROJECT_DIR$/app/controller/Main.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/controller/Location.js" />
-        <option value="$PROJECT_DIR$/app/controller/Main.js" />
-        <option value="$PROJECT_DIR$/packager.json" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -226,7 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,43 +211,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoNavigation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DemoNavigation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoNavigation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DemoNavigation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,19 +253,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/images" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -386,22 +294,22 @@
     <frame x="59" y="24" width="1541" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.96138483" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24802111" sideWeight="0.96138483" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -465,162 +373,85 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.sencha/app/build-impl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/DemoNavigation/package/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.57056147">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/sencha.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="60" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packager.temp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="690" selection-end="690" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1154" column="7" selection-start="17689" selection-end="17689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1154" column="7" selection-start="17689" selection-end="17689" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ux/slidenavigation/View.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="74" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="74" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="169005" selection-start="0" selection-end="213958" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6939#7424#1" expanded="true" />
-            <element signature="e#7584#9681#1" expanded="true" />
-            <element signature="e#9858#12035#1" expanded="true" />
-            <element signature="e#12191#14348#1" expanded="true" />
-            <element signature="e#21625#22510#1" expanded="true" />
-            <element signature="e#23025#23682#1" expanded="true" />
-            <element signature="e#26888#28749#2" expanded="true" />
-            <element signature="e#28836#29509#2" expanded="true" />
-            <element signature="e#29610#31587#2" expanded="true" />
-            <element signature="e#31688#33713#2" expanded="true" />
-            <element signature="e#33816#35861#2" expanded="true" />
-            <element signature="e#35958#37867#2" expanded="true" />
-            <element signature="e#37962#40115#2" expanded="true" />
-            <element signature="e#40208#42513#2" expanded="true" />
-            <element signature="e#42610#44239#2" expanded="true" />
-            <element signature="e#44334#46771#2" expanded="true" />
-            <element signature="e#46862#48435#2" expanded="true" />
-            <element signature="e#48528#50837#2" expanded="true" />
-            <element signature="e#50934#53967#2" expanded="true" />
-            <element signature="e#54056#56037#2" expanded="true" />
-            <element signature="e#56128#57945#2" expanded="true" />
-            <element signature="e#58034#59367#2" expanded="true" />
-            <element signature="e#59460#62317#2" expanded="true" />
-            <element signature="e#62406#63935#2" expanded="true" />
-            <element signature="e#85486#87995#2" expanded="true" />
-            <element signature="e#88092#90393#2" expanded="true" />
-            <element signature="e#90492#92473#2" expanded="true" />
-            <element signature="e#92562#95131#2" expanded="true" />
-            <element signature="e#95220#96401#2" expanded="true" />
-            <element signature="e#96490#99407#2" expanded="true" />
-            <element signature="e#99496#101085#2" expanded="true" />
-            <element signature="e#101174#103035#2" expanded="true" />
-            <element signature="e#137730#137951#2" expanded="true" />
-            <element signature="e#139096#143881#1" expanded="true" />
-            <element signature="e#147240#152649#1" expanded="true" />
-            <element signature="e#163279#163386#2" expanded="true" />
-            <element signature="e#163549#163656#2" expanded="true" />
-            <element signature="e#168884#170689#2" expanded="true" />
-            <element signature="e#170937#175546#2" expanded="true" />
-            <element signature="e#175900#181245#2" expanded="true" />
-            <element signature="e#191646#193955#2" expanded="true" />
-            <element signature="e#194167#198736#1" expanded="true" />
-            <element signature="e#200608#202585#2" expanded="true" />
-            <element signature="e#203618#206187#2" expanded="true" />
-            <element signature="e#206235#208512#2" expanded="true" />
-            <element signature="e#208561#210590#2" expanded="true" />
-            <element signature="e#210636#212481#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="12" selection-start="3681" selection-end="3681" vertical-scroll-proportion="-21.25">
-          <folding />
-        </state>
+        <state line="1" column="169005" selection-start="0" selection-end="213958" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="17" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="16" selection-start="5638" selection-end="5685" vertical-scroll-proportion="-12.857142">
+        <state line="183" column="16" selection-start="5638" selection-end="5685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/touch/src/device/notification/PhoneGap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="44" selection-start="56" selection-end="64" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/touch/src/device/Geolocation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="164" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="71" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-22.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Location.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="321" selection-end="1129" vertical-scroll-proportion="0.0">
+        <state line="38" column="11" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="23" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
+        <state line="49" column="17" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packager.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="4" selection-start="3435" selection-end="3435" vertical-scroll-proportion="0.6039454">
+        <state line="51" column="67" selection-start="1753" selection-end="1753" vertical-scroll-proportion="30.666666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="28" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="11" selection-start="2159" selection-end="2159" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="112" selection-start="1762" selection-end="1762" vertical-scroll-proportion="-20.916666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="109" selection-start="270" selection-end="270" vertical-scroll-proportion="0.22884881">
           <folding />
         </state>
       </provider>

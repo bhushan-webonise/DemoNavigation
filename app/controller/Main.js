@@ -47,26 +47,6 @@ Ext.define("DemoNavigation.controller.Main", {
 
                 dragend: function(nav) {
                     console.log('Container dragend');
-                    console.log('The panel was rendered');
-//        Ext.device.Geolocation.watchPosition({
-//            frequency: 3000, // Update every 3 seconds
-//            callback: function(position) {
-//                console.log('Position updated!', position.coords);
-//            },
-//            failure: function() {
-//                console.log('something went wrong!');
-//            }
-//        });
-                    Ext.device.Geolocation.getCurrentPosition({
-                        success: function(position) {
-//                console.log(JSON.stringify(position.coords));
-                            Ext.Msg.alert(JSON.stringify(position.coords));
-                        },
-                        failure: function() {
-//                console.log('something went wrong!');
-                            Ext.Msg.alert('something went wrong!');
-                        }
-                    });
                 }
             },
 
