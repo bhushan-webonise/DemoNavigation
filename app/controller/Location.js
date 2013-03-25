@@ -24,17 +24,17 @@ Ext.define("DemoNavigation.controller.Location", {
                 geocoder.geocode({'latLng': latlng}, function(results, status) {
                     if (status == google.maps.GeocoderStatus.OK) {
                         if (results[0]) {
-                            Ext.Msg.alert(results[0].formatted_address);
+                            Ext.Msg.alert("Address",results[0].formatted_address);
                         } else {
-                            Ext.Msg.alert("No results found");
+                            Ext.Msg.alert("Status","No results found");
                         }
                     } else {
-                        Ext.Msg.alert("Geocoder failed due to: " + status);
+                        Ext.Msg.alert("Status","Geocoder failed due to: " + status);
                     }
                 });
             },
             failure: function() {
-                Ext.Msg.alert('something went wrong!');
+                Ext.Msg.alert("Status",'something went wrong!');
             }
         });
     }
